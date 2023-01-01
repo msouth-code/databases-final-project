@@ -1,0 +1,44 @@
+<!-- Do not modify this file. -->
+
+<html>
+
+<body>
+
+    <!-- (a) -->
+    <h2>Select a year and a media type to see the media with the highest ratings from that year</h2>
+    <form method="post">
+        <!--president: <input type="text" name="president"> <br/>-->
+        <select id="year" name="year">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+        </select>
+        <select id="type" name="type">
+            <option value="all">all</option>
+            <option value="movies">movies</option>
+            <option value="shorts">shorts</option>
+            <option value="tv series">tv series</option>
+            <option value="tv episode">tv episode</option>
+            <option value="video">video</option>
+        </select>
+        <input type="submit">
+    </form>
+
+    <br /><br />
+
+    <!-- (b) -->
+    <h2>Select which attribute average you'd like to see for each genre</h2>
+    <form method="post">
+        <select id="spotifyAttributes" name="spotifyAttributes">
+            <option value="popularity">popularity</option>
+            <option value="energy">energy</option>
+            <option value="danceability">danceability</option>
+        </select>
+        <input type="submit">
+    </form>
+    <br /><br />
+
+</body>
+
+</html>
